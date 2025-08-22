@@ -22,7 +22,7 @@ int main(void) {
         if (i == 5) {
             printf("Trying to modify code...\n");
 
-            uint8_t *addr_func = (uint8_t*)demo_func;
+            uint8_t* addr_func = (uint8_t*)demo_func;
             DWORD old_protect;
 
             if (VirtualProtect(demo_func, 1, PAGE_EXECUTE_READWRITE, &old_protect)) {

@@ -1,0 +1,2 @@
+# PatchGuard
+CRC patch protection

@@ -2,7 +2,7 @@ CC = gcc
 CFLAGS = -Wall -Wextra -O2
 LDFLAGS = -lpsapi
 
-SRCS = main.c pe_crc.c
+SRCS = main.c crc_f_main.c
 OBJS = $(SRCS:.c=.o)
 TARGET = pe_protected_app
 

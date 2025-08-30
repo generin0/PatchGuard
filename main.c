@@ -19,7 +19,7 @@ int main(void) {
         demo_func();
         Sleep(1000);
 
-        if (i == 5) {
+        /*if (i == 5) {
             printf("Trying to modify code...\n");
 
             uint8_t* addr_func = (uint8_t*)demo_func;
@@ -29,7 +29,7 @@ int main(void) {
                 addr_func[0] = 0xC3;
                 VirtualProtect(demo_func, 1, old_protect, &old_protect);
             }
-        }
+        }*/
     }
 
     pe_crc_stop();
